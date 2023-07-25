@@ -1,0 +1,91 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 2rem;
+
+    .card-overlay {
+        position: absolute;
+        inset: 0;
+
+
+
+        .card-overlay-content {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background-color: #8fb3ff;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .close-btn {
+                position: absolute;
+                top: 30px;
+                right: 30px;
+
+                background-color: transparent;
+                border: none;
+                outline: none;
+
+                cursor: pointer;
+            }
+
+
+
+        }
+
+        .smileys {
+            background-color: #8fb3ff;
+
+        }
+
+        .animals {
+
+            background-color: #d68189;
+        }
+
+        .food {
+            background-color: #f04155;
+
+        }
+
+        .travel {
+            background-color: #83af9b;
+
+        }
+
+        .activities {
+
+            background-color: #556270;
+        }
+
+        .objects {
+
+            background-color: #655643;
+        }
+
+        .flags {
+            background-color: #1b676b;
+        }
+
+        .symbols {
+            background-color: #fc9d9a;
+        }
+    }
+}
+
+.smileys-shaders {
+    border-radius: 15px;
+    background: #8fb3ff;
+    box-shadow: -26px -26px 52px #7a98d9,
+        26px 26px 52px #a4ceff;
+}
+
+.animals-shaders {
+    border-radius: 15px;
+    background: #d68189;
+    box-shadow: -26px -26px 52px #b66e74,
+        26px 26px 52px #f6949e;
+}

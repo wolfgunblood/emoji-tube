@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    // justify-content: center;
+    padding: 1rem;
+
+    .btn-category{
+        background-color: rgb(186, 180, 180,0.3);
+        outline: none;
+        border: 1px solid rgba(255,255,255);
+        border-radius: 46px;
+        color: black;
+
+        font-family: var(--plus-jakarta-sans);
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: uppercase;
+
+        padding: 1rem;
+        
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgb(186, 180, 180,0.8);
+            color: #fff;
+        }
+        &:focus {
+            background-color: rgb(186, 180, 180,0.8);
+          }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    
+   .navbar{
+    .btn-category{
+        font-size: 12px;
+        font-weight: 400px;
+        padding: 1rem;
+    }
+   }
+
+}
